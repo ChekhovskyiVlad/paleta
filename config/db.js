@@ -7,7 +7,7 @@ if (!process.env.DATABASE_URL) {
 }
 
 
-const connectionString = process.env.DATABASE_URL
+const connectionString = process.env.DATABASE_URLс
 const sql = postgres(connectionString, {
     ssl: 'require',
     max: 10
